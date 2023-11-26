@@ -1,0 +1,11 @@
+{
+    "name": "First container",
+    "build": {
+        "context": "..",
+        "dockerfile": "Dockerfile",
+        "args": {
+            "NODE_VERSION": "lts/*"
+        }
+    },
+    "remoteUser": "vscode"
+}
